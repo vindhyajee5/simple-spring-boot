@@ -15,7 +15,8 @@ public class TestController {
 	@PostMapping("/order")
 	public String  orderdata(@RequestBody Order order)
 	{
-		return "data Entered"+order.getOrderName();
+		
+		return "Hello"+order.getOrderName();
 		
 	}
 
